@@ -1,0 +1,92 @@
+.modalContainer {
+  padding: 24px;
+}
+
+.modalTitle {
+  border-bottom: 1px solid var(--divider);
+  font-size: 24px;
+  font-weight: 400;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+
+.contentTitle {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contentWraper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.headerContent {
+  display: flex;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.tableActionsContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 0;
+  gap: 5px;
+  height: 100%;
+}
+
+.tableActionsContainer svg {
+  color: var(--icon-main);
+}
+
+.innerWrapper {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 1px solid var(--divider);
+}
+
+.notesWrapper {
+  padding: 15px;
+}
+
+.notesInput {
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttonsWrapper {
+  display: flex;
+  gap: 5px;
+}
+
+.actionsButton {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.loadingWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-hover);
+  z-index: 10;
+}

@@ -1,0 +1,43 @@
+.personalInfoContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.personalInfoContainer table {
+  width: 50%;
+}
+
+.rowContainer {
+  display: flex;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.rowContainer td {
+  padding-left: 15px;
+  flex: 1 1;
+}
+
+.rowContainer input {
+  border-bottom: 1px solid var(--primary-dark);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-height: 27.8px;
+  height: 27.8px;
+}
+
+.rowContainer textarea {
+  border-bottom: 1px solid var(--primary-dark);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.inputField {
+  width: 100%;
+  border: none;
+  height: 27.8px;
+}

@@ -1,0 +1,50 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  gap: 5px;
+  align-items: center;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.moreIcon {
+  margin-left: auto;
+  color: var(--icon-main);
+}
+
+.rotated {
+  transform: rotate(180deg);
+}
+
+.accordion {
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: none;
+  border: 1px solid var(--divider);
+
+  > div {
+    flex-direction: row-reverse;
+    gap: 20px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+
+.expanded {
+  max-height: none;
+  height: auto;
+}
+
+.collapsed {
+  max-height: 70px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+}
+
+.accordionDetails {
+  padding: 0;
+}

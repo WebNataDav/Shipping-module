@@ -1,0 +1,15 @@
+.tableRow {
+  height: 50px;
+  cursor: pointer;
+}
+
+.disabledRow {
+  pointer-events: none;
+  td {
+    color: var(--text-secondary);
+  }
+}
+
+.shippedQuantityInput {
+  width: 100px;
+}

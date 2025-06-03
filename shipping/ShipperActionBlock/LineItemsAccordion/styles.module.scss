@@ -1,0 +1,110 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  gap: 5px;
+  align-items: center;
+}
+
+.titlesWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.titleAddress {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+.moreIcon {
+  color: var(--icon-main);
+}
+
+.accordion {
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: none;
+  border: 1px solid var(--divider);
+
+  > div {
+    flex-direction: row-reverse;
+    gap: 20px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+
+.accordionSummary {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 70px;
+}
+
+.expanded {
+  max-height: none;
+  height: auto;
+}
+
+.collapsed {
+  max-height: 70px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+}
+
+.accordionDetails {
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rotated {
+  transform: rotate(180deg);
+}
+
+.tableActionsContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 0;
+  gap: 5px;
+  height: 100%;
+}
+
+.tableActionsContainer svg {
+  color: var(--icon-main);
+}
+
+svg.editIcon {
+  margin-right: 5px;
+  color: var(--primary-main);
+}
+
+.shipperCell {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.notesWrapper {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  border-top: 1px solid var(--divider);
+}
+
+.notesText {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-secondary);
+}

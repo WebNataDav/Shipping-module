@@ -1,0 +1,80 @@
+.printFormHeaderContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.printFormHeaderContainer > div:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.logoSectionContainer {
+  position: relative;
+  width: 105px;
+  aspect-ratio: 1;
+  img {
+    object-fit: contain;
+  }
+}
+
+.companySectionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.companySectionContainer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+.companySectionContainer h4 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.recieverTicketContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  padding-left: 15px;
+}
+
+.recieverTicketContainer h5 {
+  font-size: 20px;
+}
+
+.recieverTicketContainer span,
+.recieverTicketContainer em {
+  font-size: 12.8px;
+  line-height: 19.2px;
+  font-weight: 400;
+}
+
+.printFormHeaderContainer {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+}

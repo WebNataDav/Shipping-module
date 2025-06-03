@@ -1,0 +1,41 @@
+.rowContainer {
+  display: flex;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.rowContainer tr {
+  display: flex;
+  flex: 1;
+}
+
+.rowContainer th {
+  width: fit-content;
+  text-wrap: nowrap;
+  text-align: left;
+}
+
+.rowContainer td {
+  border-bottom: 1px solid var(--primary-dark);
+  padding-left: 15px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-height: 27.8px;
+  height: 27.8px;
+}
+
+.credentialsContainer {
+  display: flex;
+  flex-direction: row;
+}
+.credentialsContainer table {
+  width: 50%;
+}
+
+.inputField {
+  width: 100%;
+  border: none;
+}

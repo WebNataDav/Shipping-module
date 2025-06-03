@@ -1,0 +1,21 @@
+.printFormNotesContainer {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  div:first-child {
+    font-weight: bold;
+    flex: 0 0 auto;
+  }
+  div:last-child {
+    flex: 1 1 auto;
+    padding: 0 15px;
+    p {
+      border-bottom: 0.8px solid var(--print-form-divider);
+      width: 100%;
+      height: 25px;
+      margin: 0;
+    }
+  }
+}

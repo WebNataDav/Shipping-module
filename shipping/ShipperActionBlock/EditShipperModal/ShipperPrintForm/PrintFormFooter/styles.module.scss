@@ -1,0 +1,30 @@
+.printFormFooterContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 8px;
+
+  button:not(button:first-child) {
+    border: 1px solid var(--print-form-button-border);
+    border-radius: 5px;
+    margin-left: 10px;
+    text-align: center;
+
+    svg {
+      margin-right: 5px;
+    }
+  }
+  button:first-child {
+    border: 1px solid inherit;
+  }
+}
+
+.printButton {
+  margin: 0 auto;
+  height: 40px;
+}
+
+.closeButton {
+  margin-left: 24px !important;
+  height: 40px;
+}

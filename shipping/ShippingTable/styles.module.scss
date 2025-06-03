@@ -1,0 +1,49 @@
+.filtersContainer {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 24px;
+}
+
+.searchField {
+  width: 100%;
+  max-width: 352px;
+}
+
+.selectFilterField {
+  width: 100%;
+  max-width: 256px;
+}
+
+.dateFilterField {
+  width: 100%;
+  max-width: 180px;
+}
+
+.tableSection {
+  display: flex;
+  column-gap: 16px;
+}
+
+.table {
+  width: 60%;
+}
+
+.shippingTableActionContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.shipperActionWrapper {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.spinnerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 100%;
+}
